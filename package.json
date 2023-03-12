@@ -1,0 +1,53 @@
+{
+  "name": "rsc-server-data",
+  "version": "0.0.2",
+  "private": false,
+  "main": "./dist/index.js",
+  "author": {
+    "email": "irekfrontend@mgmail.com",
+    "name": "@irekrog"
+  },
+  "types": "./dist/index.d.ts",
+  "module": "./dist/index.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "build:watch": "tsup --watch",
+    "local-package": "yalc publish"
+  },
+  "keywords": [
+    "react",
+    "next",
+    "next.js",
+    "nextjs",
+    "rsc"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "directory": "https://github.com/irekrog/rsc-server-data.git"
+  },
+  "bugs": {
+    "url": "https://github.com/irekrog/rsc-server-data/issues"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "next": "^13.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tsup": "^6.6.0",
+    "typescript": "^4.9.5"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "next": "^13.2.4"
+  }
+}
