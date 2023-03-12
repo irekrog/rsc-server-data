@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   next: ^13.2.4
+  prettier: ^2.8.4
   react: ^18.2.0
   react-dom: ^18.2.0
   tsup: ^6.6.0
@@ -9,6 +10,7 @@ specifiers:
 
 devDependencies:
   next: 13.2.4_biqbaboplfbrettd7655fr4n2y
+  prettier: 2.8.4
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   tsup: 6.6.3_typescript@4.9.5
@@ -856,6 +858,12 @@ packages:
       nanoid: 3.3.4
       picocolors: 1.0.0
       source-map-js: 1.0.2
+    dev: true
+
+  /prettier/2.8.4:
+    resolution: {integrity: sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
     dev: true
 
   /punycode/2.3.0:
