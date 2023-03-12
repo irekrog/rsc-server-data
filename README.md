@@ -33,3 +33,8 @@ const App = () => {
   return <ServerData />;
 };
 ```
+
+## Example
+https://github.com/irekrog/rsc-server-data-example
+
+https://rsc-server-data-example.vercel.app/rsc-server-data
