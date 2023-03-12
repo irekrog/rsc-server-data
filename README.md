@@ -2,6 +2,9 @@
 
 Get and show data from the server.
 
+## DON'T USE THIS IN PRODUCTION
+
+
 ## Requirements
 
 This is a [React Server Component (RSC)](https://beta.nextjs.org/docs/rendering/server-and-client-components#server-components) and works with [Next.js with App Router](https://beta.nextjs.org/docs/app-directory-roadmap).
